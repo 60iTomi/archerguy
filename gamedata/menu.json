@@ -1,0 +1,27 @@
+{
+    "units": 
+    {
+        "1": {
+            "text": [
+                "Welcome to the game!",
+                "This is a simple text-based adventure.",
+                "Are you ready to start?"
+            ],
+            "options": [
+                {
+                    "text": "Yes, let's begin!",
+                    "nextUnit": "2"
+                },
+                {
+                    "text": "No, I want to exit.",
+                    "nextUnit": "-1"
+                }
+            ]
+        },
+        "2": {
+            "text": [
+                "Great! Let's get started with your adventure."
+            ]
+        }
+    }
+}
